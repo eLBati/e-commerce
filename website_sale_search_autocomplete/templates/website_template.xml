@@ -13,9 +13,9 @@
               >
 
         <xpath expr="//input" position="attributes">
-            <attribute name="class">js_website_autocomplete</attribute>
+            <attribute name="class" add="js_website_autocomplete" separator=" " />
             <attribute name="data-query-field">name</attribute>
-            <attribute name="data-display-field">display_name</attribute>
+            <attribute name="data-display-field">name</attribute>
             <attribute name="data-value-field">name</attribute>
             <attribute name="data-limit">10</attribute>
             <attribute name="data-domain">[]</attribute>
